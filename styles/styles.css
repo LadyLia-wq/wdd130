@@ -31,7 +31,8 @@ nav a {
 }
 h1 {
     color: darkblue;
-    border-bottom: 30px;
+    /* border-bottom: 30px; */
+    border-bottom: 1px solid #777;
 }
 img {
     width: 150px;
@@ -42,6 +43,7 @@ img {
 }
 p {
     padding: 0;
+    margin-top: 1rem;
 }
 main{
     max-width: 840px;
@@ -50,6 +52,7 @@ main img{
     width: 150px;
     height: auto;
     float: right;
+    margin-top: 1rem;
 }
 aside{
     width: 20rem;
