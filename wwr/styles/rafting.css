@@ -300,7 +300,7 @@ footer p {
 
 .checkbox-row .checkbox {
   font-weight: normal;
-  align-items: left;
+  align-items: flex-start;
 }
 
 .button-row button {
