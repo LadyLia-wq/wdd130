@@ -261,14 +261,14 @@ footer p {
 
 .form-row {
   display: grid;
-  grid-template-columns: 70px 1fr; /* label column | input column */
+  grid-template-columns: 70px 1fr; 
   align-items: center;
   gap: 1rem;
 }
 
 .form-row label {
   font-weight: bold;
-  text-align: left; /* matches the wireframe */
+  text-align: left;
 }
 
 .form-row input,
@@ -281,7 +281,6 @@ footer p {
 
 .radio-group {
   display: flex;
-  /* flex-direction: column; */
   gap: 0.5rem;
   align-items: start;
 }
@@ -289,13 +288,12 @@ footer p {
 .radio-group label {
   display: flex;
   align-items: center;
-  /* flex-direction: column; */
-  gap: 0.5rem;  /* space between radio circle and text */
+  gap: 0.5rem;  
   font-weight: normal;
 }
 
 .radio-group input[type="radio"] {
-  accent-color: var(--accent1-color); /* makes the radio match site color */
+  accent-color: var(--accent1-color); 
 }
 
 .checkbox-row .checkbox {
