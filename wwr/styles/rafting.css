@@ -337,4 +337,203 @@ footer p {
 .employee-profiles figcaption {
   margin-top: 0.5rem;
   font-weight: 500;
+}  
+
+
+/* ==============================
+   Home Page Styles
+============================== */
+
+body.home {
+    background-color: #f4f4f4;
+}
+
+.index-hero {
+    position: relative;
+    width: 100%;
+    margin-bottom: 2rem;
+}
+
+.index-hero img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.index-hero .heading {
+    position: absolute;
+    top: 20px;
+    width: 100%;
+    padding: 16px;
+    text-align: center;
+    background-color: rgba(38, 70, 83, 0.8);
+    color: #fff;
+    font-size: 2rem;
+}
+
+.newsletter {
+    background-color: #e9c46a;
+    padding: 2rem;
+    text-align: center;
+    border-radius: 10px;
+    margin: 2rem 0;
+}
+
+.newsletter form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.newsletter input[type="text"],
+.newsletter input[type="email"] {
+    width: 300px;
+    padding: 0.5rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.newsletter button {
+    padding: 0.5rem 1rem;
+    background-color: #264653;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background 0.3s;
+}
+
+.newsletter button:hover {
+    background-color: #055a05;
+}
+
+.index-cta {
+    text-align: center;
+    margin: 2rem 0;
+}
+
+.index-cta a {
+    background-color: var(--accent1-color);
+    padding: 1rem 2rem;
+    color: #fcfdfd;
+    font-weight: bold;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background 0.3s;
+}
+
+.index-cta a:hover {
+    background-color: #ffcc00;
+    color: white;
+}
+
+.home-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+    margin: 2rem 0;
+}
+
+.grid-item {
+    background-color: #f8f8f8;
+    padding: 1rem;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.grid-item img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+
+/* ==============================
+   Trips Page Styles
+============================== */
+
+.trips-intro h1, p {
+  text-align: center;
+}
+  
+body.trips {
+    background-color: #f4f4f4;
+}
+
+.trip-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+    margin: 2rem 0;
+}
+
+.trip-card {
+    background-color: #f8f8f8;
+    border-radius: 10px;
+    overflow: hidden;
+    text-align: center;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    padding-bottom: 1rem;
+}
+
+.trip-card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+.trip-card h3 {
+    margin: 0.5rem 0;
+    color: #264653;
+}
+
+.trip-card p {
+    padding: 0 1rem;
+    font-size: 0.95rem;
+}
+
+.trip-table {
+    margin: 2rem auto;
+    max-width: 800px;
+}
+
+.trip-table table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.trip-table th,
+.trip-table td {
+    border: 1px solid #ccc;
+    padding: 0.75rem;
+    text-align: center;
+}
+
+.trip-table th {
+    background-color: #264653;
+    color: white;
+}
+
+.cta {
+    text-align: center;
+    margin: 2rem 0;
+}
+
+.cta a {
+    background-color: var(--accent1-color);
+    padding: 1rem 2rem;
+    color: #f6f7f7;
+    font-weight: bold;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background 0.3s;
+}
+
+.cta a:hover {
+    background-color:#ffcc00;
+    color: white;
 }
